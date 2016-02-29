@@ -3,7 +3,7 @@ no-response-timeout: 10
 build:
   steps:
     - install-packages:
-        packages: wget unzip ruby rubygems ruby-dev
+        packages: wget unzip ruby ruby-dev
     - bundle-install
     - script:
         name: install gems
