@@ -4,7 +4,7 @@ build:
   steps:
     - bundle-install
     - install-packages:
-        packages: wget unzip
+        packages: wget unzip ruby rubygems
     - script:
         name: install gems
         code: bundle install
