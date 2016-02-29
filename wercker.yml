@@ -1,4 +1,4 @@
-box: ubuntu/trusty
+box: yta/ubuntu-14.04@0.0.1
 no-response-timeout: 10
 build:
   steps:
